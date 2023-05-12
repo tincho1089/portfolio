@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.footer-copy {
+  color: #fff;
+  font-size: 10px;
+}

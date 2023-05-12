@@ -1,0 +1,56 @@
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.icon {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+.title {
+  color: #6b7280;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.company {
+  color: #777;
+  font-size: 16px;
+  font-weight: bold !important;
+  margin: 0;
+}
+
+.experienceList {
+  list-style: circle;
+  margin-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.experienceItem {
+  color: #6b7280;
+  font-size: 14px;
+  padding-left: 0.25rem;
+  letter-spacing: 0.05em;
+}
+
+.sectionHeadText {
+  color: #fff;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.sectionSubText {
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.experienceCardWrapper {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}

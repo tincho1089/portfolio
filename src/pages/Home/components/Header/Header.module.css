@@ -1,0 +1,115 @@
+.header {
+  position: relative;
+  min-height: 40.5rem;
+  width: 100%;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 10rem;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 85%;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.bannerTextWrap {
+  width: 100%;
+  flex: 2;
+}
+
+.title {
+  font: 70px/1.1em 'opensans-bold', sans-serif;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.detail {
+  font: 18px/1.9em 'librebaskerville-regular', sans-serif;
+  color: #fff;
+  margin: 0 auto;
+  width: 70%;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.line {
+  width: 60%;
+  margin: 18px auto 24px auto;
+  border-color: #fff;
+  color: #ffffff;
+}
+.social {
+  margin: 24px 0;
+  padding: 0;
+  font-size: 30px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.icon {
+  color: #ffffff; /* Establece el color del icono en blanco */
+  transition: color 0.3s ease; /* Agrega una transición suave al cambio de color */
+  font-size: 2.5rem;
+}
+
+.icon:hover {
+  color: #5543a1; /* Establece el color del icono en rojo al hacer hover */
+  font-size: 3.5rem;
+}
+
+.social li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0;
+}
+.social li a {
+  color: #fff;
+}
+.social li a:hover {
+  color: #11abb0;
+}
+
+.bannerImage {
+  flex: 1;
+}
+
+.scrolldown a {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -29px;
+  color: #fff;
+  display: block;
+  height: 42px;
+  width: 42px;
+  font-size: 42px;
+  line-height: 42px;
+  color: #fff;
+  border-radius: 100%;
+
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.scrolldown a:hover {
+  color: #11abb0;
+}
+
+@media (max-width: 900px) {
+  /* Estilos específicos para dispositivos móviles aquí */
+  .headerContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .header {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,54 @@
+.tagcloud-wrap {
+  display: flex;
+  flex: 1;
+  position: relative;
+  top: 0;
+
+  .tagcloud {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 650;
+  }
+  .tagcloud--item {
+    position: absolute;
+    top: 35% !important;
+  }
+  .tagcloud--item:hover {
+    color: #ff9100;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .tagcloud {
+    width: 30rem !important;
+    height: 30rem !important;
+  }
+  .tagcloud-wrap {
+    left: 20%;
+  }
+}
+
+@media (max-width: 730px) {
+  .tagcloud-wrap {
+    left: 15%;
+  }
+}
+
+@media (max-width: 650px) {
+  .tagcloud-wrap {
+    left: 10%;
+  }
+}
+
+@media (max-width: 550px) {
+  .tagcloud-wrap {
+    left: 2%;
+  }
+}
+
+@media (max-width: 510px) {
+  .tagcloud-wrap {
+    display: none;
+  }
+}
